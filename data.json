@@ -1,291 +1,513 @@
-﻿var DATA = {
-    "Aidan Gillen": [
-        "Game of Thrones",
-        "The Wire"
-    ],
-    "Alexander Skarsgård": [
-        "Generation Kill",
-        "True Blood"
-    ],
-    "Amy Ryan": [
-        "In Treatment",
-        "The Wire"
-    ],
-    "Annie Fitzgerald": [
-        "Big Love",
-        "True Blood"
-    ],
-    "Anwan Glover": [
-        "Treme",
-        "The Wire"
-    ],
-    "Blair Underwood": [
-        "John from Cincinnati",
-        "Sex and the City"
-    ],
-    "Brian F. O'Byrne": [
-        "Oz",
-        "K Street"
-    ],
-    "Chris Bauer": [
-        "True Blood",
-        "The Wire"
-    ],
-    "Clarke Peters": [
-        "Oz",
-        "Treme",
-        "True Blood",
-        "The Wire"
-    ],
-    "Cynthia Ettinger": [
-        "Carnivàle",
-        "Curb Your Enthusiasm",
-        "Deadwood"
-    ],
-    "Cyrus Farmer": [
-        "The Corner",
-        "Oz",
-        "The Wire"
-    ],
-    "Dane DeHaan": [
-        "In Treatment",
-        "True Blood"
-    ],
-    "Dania Remirez": [
-        "Entourage",
-        "The Sopranos"
-    ],
-    "David Costabile": [
-        "Flight of the Conchords",
-        "The Wire"
-    ],
-    "Dayton Callie": [
-        "Deadwood",
-        "In Treatment"
-    ],
-    "Dominic Chianese": [
-        "Boardwalk Empire",
-        "The Sopranos"
-    ],
-    "Domonic Lombardozzi": [
-        "Entourage",
-        "Oz",
-        "The Wire"
-    ],
-    "Don Swayze": [
-        "Carnivàle",
-        "True Blood"
-    ],
-    "Edie Falco": [
-        "Oz",
-        "The Sopranos"
-    ],
-    "Edoardo Ballerini": [
-        "Boardwalk Empire",
-        "The Sopranos"
-    ],
-    "Edwina Findley": [
-        "True Blood",
-        "The Wire"
-    ],
-    "Garret Dillahunt": [
-        "Deadwood",
-        "John from Cincinnati"
-    ],
-    "Glynn Turman": [
-        "John from Cincinnati",
-        "The Wire"
-    ],
-    "Grant Show": [
-        "Big Love",
-        "Six Feet Under"
-    ],
-    "Greg Antonacci": [
-        "Boardwalk Empire",
-        "The Sopranos"
-    ],
-    "J. Smith-Cameron": [
-        "K Street",
-        "True Blood"
-    ],
-    "James Ransone": [
-        "Generation Kill",
-        "Treme",
-        "The Wire"
-    ],
-    "Jamie-Lynn Sigler": [
-        "Entourage",
-        "The Sopranos"
-    ],
-    "Jim Beaver": [
-        "Deadwood",
-        "John from Cincinnati",
-        "Six Feet Under"
-    ],
-    "Jim True-Frost": [
-        "True Blood",
-        "The Wire"
-    ],
-    "J.D. Williams": [
-        "The Wire",
-        "Oz",
-        "Sex and the City"
-    ],
-    "John Carroll Lynch": [
-        "Big Love",
-        "Carnivàle",
-        "How To Make It in America"
-    ],
-    "John Doman": [
-        "Oz",
-        "The Sopranos",
-        "The Wire"
-    ],
-    "John Hawkes": [
-        "Eastbound and Down",
-        "Deadwood"
-    ],
-    "John Seda": [
-        "Oz",
-        "Treme"
-    ],
-    "Kevin Rankin": [
-        "Big Love",
-        "Six Feet Under"
-    ],
-    "Kim Dickens": [
-        "Deadwood",
-        "Treme"
-    ],
-    "Laila Robins": [
-        "In Treatment",
-        "The Sopranos",
-        "Sex and the City",
-        "Bored to Death"
-    ],
-    "Lance Reddick": [
-        "The Wire",
-        "Oz",
-        "The Corner"
-    ],
-    "Louis Lombardi": [
-        "Entourage",
-        "The Sopranos"
-    ],
-    "Luis Guzmán": [
-        "How To Make It in America",
-        "John from Cincinnati",
-        "Oz"
-    ],
-    "Luke Perry": [
-        "Oz",
-        "John from Cincinnati"
-    ],
-    "Mary Kay Place": [
-        "Big Love",
-        "Bored to Death"
-    ],
-    "Matt Winston": [
-        "John from Cincinnati",
-        "Six Feet Under"
-    ],
-    "Method Man": [
-        "Oz",
-        "The Wire"
-    ],
-    "Michael Kenneth William": [
-        "Boardwalk Empire",
-        "The Sopranos",
-        "The Wire"
-    ],
-    "Michelle Forbes": [
-        "In Treatment",
-        "True Blood"
-    ],
-    "Paul Ben-Victor": [
-        "Entourage",
-        "The Wire",
-        "John from Cincinnati",
-        "Curb Your Enthusiasm"
-    ],
-    "Paul Herman": [
-        "Entourage",
-        "The Sopranos"
-    ],
-    "Paula Malcomson": [
-        "Deadwood",
-        "John from Cincinnati",
-        "Six Feet Under"
-    ],
-    "Reg E. Cathey": [
-        "The Wire",
-        "Oz",
-        "The Corner"
-    ],
-    "Robert Clohessy": [
-        "Boardwalk Empire",
-        "Oz"
-    ],
-    "Roxanne Hart": [
-        "Hung",
-        "Oz"
-    ],
-    "Seth Gilliam": [
-        "Oz",
-        "The Wire"
-    ],
-    "Stephen Toblowsky": [
-        "Deadwood",
-        "Curb Your Enthusiasm",
-        "John from Cincinnati"
-    ],
-    "Steve Buscemi": [
-        "Boardwalk Empire",
-        "The Sopranos"
-    ],
-    "Steve Earle": [
-        "The Wire",
-        "Six Feet Under"
-    ],
-    "Ted Danson": [
-        "Bored to Death",
-        "Curb Your Enthusiasm"
-    ],
-    "Tom Aldredge": [
-        "Boardwalk Empire",
-        "The Sopranos"
-    ],
-    "Tom Mardirosian": [
-        "Oz",
-        "The Wire"
-    ],
-    "Tom Townsend": [
-        "Entourage",
-        "The Wire"
-    ],
-    "Toni Lewis": [
-        "Oz",
-        "The Wire"
-    ],
-    "Vincent Piazza": [
-        "Boardwalk Empire",
-        "The Sopranos"
-    ],
-    "Wendel Pierce": [
-        "Treme",
-        "The Wire"
-    ],
-    "William Sanderson": [
-        "True Blood",
-        "Deadwood"
-    ],
-    "Willie Garson": [
-        "John from Cincinnati",
-        "Sex and the City"
-    ],
-    "Zeljko Ivanek": [
-        "Big Love",
-        "True Blood",
-        "Oz"
+var DATA = {
+    "Bloody Mary": [
+        "Voda"       
+    ],
+    "Greyhound": [
+        "Vodka",
+        "Grapefruit Juice"
+    ],
+    "Screw Drive": [
+        "Vodka",
+        "Orange Juice"
+    ],
+    "Harvey Wallbanger": [
+        "Vodka",
+        "Orange Juice",
+        "Galliano"
+    ],
+    "Tequila Sunrise": [
+        "Tequila",
+        "Orange Juice",
+        "Grenadine"  
+    ],
+    "Cape Cod": [
+        "Vodka",
+        "Cranberry Juice"
+    ],
+    "Sea Breeze": [
+        "Vodka",
+        "Cranberry Juice",
+        "Grapefruit Juice"
+        
+    ],
+    "Bay Breeze": [
+        "Vodka",
+        "Cranberry Juice",
+        "Pinapple Juice"
+    ],
+    "Madras": [
+        "Vodka",
+        "Cranberry Juice",
+        "Orange Juice",
+    ],
+    "Sex On The Beach": [
+        "Vodka",
+        "Peach Schnapps",
+        "Orange Juice",
+        "Cranberry Juice"
+    ],
+    "Slow Screw": [
+        "Gin",
+        "Orange Juice",
+    ],
+    "Slow Comfortable Screw": [
+        "Gin",
+        "Southern Comfort",
+        "Orange Juice"
+    ],
+    "Melon Ball": [
+        "Vodka",
+        "Orange Juice",
+        "Midori"
+    ],
+    "Fuzzy Navel": [
+        "Peach Schnapps",
+        "Orange Juice"
+    ],
+    "High Ball": [
+        "Bourbon",
+        "Ginger Ale"
+    ],
+    "Scotch And Soda": [
+        "Scotch",
+        "Soda"
+    ],
+    "7 & 7": [
+        "Whisky",
+        "7-up",
+    ],
+    "Whisky And Water": [
+        "Whisky",
+        "Water"
+    ],
+    "Rum And Coke": [
+        "Rum",
+        "Coke"
+    ],
+    "Cuba Libre": [
+        "Rum",
+        "Coke"
+    ],
+    "Gin And Tonic": [
+        "Gin",
+        "Tonic"
+    ],
+    "Presbyterian": [
+        "Bourbon",
+        "Ginger Ale",
+		"Soda"
+    ],
+    "Press": [
+        "Vodka",
+        "7-up",
+        "Soda"
+    ],
+    "Gin Rickey": [
+        "Gin",
+        "Soda"
+    ],
+    "Old Fashion": [
+        "Bourbon",
+        "Soda"
+    ],
+    "Vodka Red Bull": [
+        "Vodka",
+        "Red Bull"
+    ],
+    "Brandy Alexander": [
+        "Brandy",
+        "Brown Creme de Cacao",
+        "Cream"
+    ],
+    "Grasshopper": [
+        "Green Creme de Cacao",
+        "White Creme de Cacao"
+    ],
+    "Key Lime Pie": [
+        "Vodka",
+        "Cream",
+    ],
+    "Pink Lady": [
+        "Gin",
+        "Grenadine",
+        "Cream"
+    ],
+    "Nuts & Berries": [
+        "Frangelico",
+        "Chambord",
+        "Cream"
+    ],
+    "Dreamsicle": [
+        "Amaretto",
+        "Orange Juice",
+        "Cream"
+    ],
+    "Toasted Almond": [
+        "Kahula",
+        "Amaretto",
+        "Cream"
+    ],
+    "Mudslide": [
+        "Kahula",
+        "Vodka",
+        "Baileys",
+        "Cream"
+    ],
+    "Martini": [
+        "Vodka",
+        "Dry Vermouth"
+    ],
+    "Dry Martini": [
+        "Vodka",
+        "Dry Vermouth"
+    ],
+    "Manhattan": [
+        "Bourbon",
+        "Sweet Vermouth"
+    ],
+    "Dry Manhattan": [
+        "Bourbon",
+        "Dry Vermouth",
+    ],
+    "Perfect Manhattan": [
+        "Bourbon",
+        "Dry Vermouth",
+        "Sweet Vermouth"
+    ],
+    "Rob Roy": [
+        "Sweet Vermouth",
+        "Scotch",
+      
+    ],
+    "Dry Rob Roy": [
+        "Dry Vermouth",
+        "Scotch",
+    ],
+    "Perfect Rob Roy": [
+        "Dry Vermouth",
+        "Sweet Vermouth",
+        "Scotch"
+    ],
+    "Side Car": [
+        "Brandy",
+        "Triple Sec"
+    ],
+    "Cosmopolitian": [
+        "Vodka",
+        "Triple Sec",
+        "Cranberry Juice"
+    ],
+    "Chocolate Martini": [
+        "Vodka",
+        "White Creme de Cacao"
+    ],
+    "Appletini": [
+        "Vodka",
+        "Apple Pucker"
+    ],
+    "Lemon Drop": [
+        "Vodka",
+        "Triple Sec"
+    ],
+    "French Connection": [
+        "Cognac",
+        "Grand Marnier"
+    ],
+    "Incredible Hulk": [
+        "Hennessy",
+        "Hpnotiq"
+    ],
+    "Black Russian": [
+        "Vodka",
+        "Kahula"
+    ],
+    "White Russian": [
+        "Vodka",
+        "Kahula",
+        "Cream"
+    ],
+    "Colorado Bulldog": [
+        "Vodka",
+        "Kahula",
+        "Cream",
+        "Coke"
+    ],
+    "Rootbeer Float": [
+        "Vodka",
+        "Kahula",
+        "Cream",
+        "Coke",
+        "Galliano"
+        "Cream"
+    ],
+    "Dirty Mother": [
+        "Brandy",
+        "Kahula"
+    ],
+    "Brave Bull": [
+        "Tequila",
+        "Kahula"
+    ],
+    "Black Jamaican": [
+        "Myer's Rum",
+        "Tia Maria"
+    ],
+    "Rusty Nail": [
+        "Scotch",
+        "Drambuie"
+    ],
+    "Stinger": [
+        "Brandy",
+        "White Creame de Menthe"
+    ],
+    "Gimelet": [
+        "Gin",
+        "Rose's Lime Juice"
+    ],
+    "Snake Bite": [
+        "Yukon Jack",
+        "Rose's Lime Juice"
+    ],
+    "Whisky Sour": [
+        "Whisky",
+        "Sweet & Sour"
+    ],
+    "Margarita": [
+        "Tequila",
+        "Triple Sec",
+        "Rose's Lime Juice",
+        "Sweet & Sour"
+    ],
+    "Long Island Iced Tea": [
+        "Vodka",
+        "Triple Sec",
+        "Rum",
+        "Gin",
+        "Sweet & Sour",
+        "Coke"
+    ],
+    "Long Beach Iced Tea": [
+        "Vodka",
+        "Triple Sec",
+        "Rum",
+        "Gin",
+        "Sweet & Sour",
+        "Cranberry Juice"
+    ],
+    "Lemonade": [
+        "Vodka",
+        "Triple Sec",
+        "Rum",
+        "Gin",
+        "Sweet & Sour",
+        "Lemon-lime Soda"
+    ],
+    "AMF": [
+        "Vodka",
+        "Tequila",
+        "Rum",
+        "Gin",
+        "Sweet & Sour",
+        "Blue Curacao"
+    ],
+    "Black Opal": [
+        "Vodka",
+        "Gin",
+        "Rum",
+        "Chambord",
+        "Sweet & Sour",
+        "Lemon-lime Soda"
+    ],
+    "Tokyo Tea": [
+        "Vodka",
+        "Gin",
+        "Rum",
+        "Midori",
+        "Sweet & Sour",
+        "Lemon-lime Soda"
+    ],    
+    "Lynchburg Lemonade": [
+        "Jack Daniel's",
+        "Triple Sec",
+        "Sweet & Sour",
+        "Lemon-lime Soda"
+    ],
+    "Vodka Collins": [
+        "Vodka",
+        "Sweet & Sour",
+        "Soda"
+    ],  
+    "Tom Collins": [
+        "Gin",
+        "Sweet & Sour",
+        "Soda"
+    ],
+    "Joe Collins": [
+        "Scotch",
+        "Sweet & Sour",
+        "Soda"
+    ],
+      "John Collins": [
+        "Bourbon",
+        "Sweet & Sour",
+        "Soda"
+    ],
+      "Joan Collins": [
+        "Brandy",
+        "Sweet & Sour",
+        "Soda"
+    ],
+      "Sloe Gin Fizz": [
+        "Gin",
+        "Sweet & Sour",
+        "Soda"
+    ],
+    "Mai Tai": [
+        "Light Rum",
+        "Creme de Almond",
+        "Triple Sec",
+        "Pineapple Juice",
+        "Sweet & Sour",
+        "Myer's Rum"
+    ],
+      "Zombie": [
+        "Light Rum",
+        "Creme de Almond",
+        "Triple Sec",
+        "Orange Juice",
+        "Sweet & Sour",
+        "151 Rum"
+    ],
+      "Singapore Sling": [
+        "Gin",
+        "Grenadine",
+        "Soda",
+        "Cherry Brandy",
+        "Sweet & Sour"
+    ],
+      "Fog Cutter": [
+        "Brandy",
+        "Gin",
+        "Light Rum",
+        "Orange Juice",
+        "Sweet & Sour"
+    ],
+      "Blue Hawaiian": [
+        "Light Rum",
+        "Blue Curacao",
+        "Pineapple Juice",
+        "Sweet & Sour",
+    ],
+      "Hurricane": [
+        "Myer's Rum",
+        "Light Rum",
+        "Rose's Lime Juice",
+        "Orange Juice",
+        "Sweet & Sour",
+        "Grenadine"
+    ],
+      "Bahama Mama": [
+        "Light Rum",
+        "Malibu",
+        "Pineapple Juice",
+        "Grenadine"
+    ],
+      "Mojito": [
+        "Light Rum",
+        "Soda"
+    ],
+      "B-52": [
+        "Kahula",
+        "Baileys",
+        "Brand Marnier"
+    ],
+      "Duckfart": [
+        "Kahula",
+        "Baileys",
+        "Crown Royal"
+    ],
+      "Turkeyfart": [
+        "Kahula",
+        "Baileys",
+        "Wild Turkey"
+    ],
+      "Mind Eraser": [
+        "Vodka",
+        "Kahula",
+        "Soda"
+    ],
+      "Depth Charge": [
+        "Whisky",
+        "Beer"
+    ],
+      "Irish Car Bomb": [
+        "Jameson",
+        "Baileys"
+    ],
+      "Touchdown": [
+        "Vodka",
+        "Red Bull"
+    ],
+      "Jager Bomb": [
+        "Jagermeister",
+        "Red Bull"
+    ],
+      "Vitamin C": [
+        "Vodka",
+        "Red Bull",
+        "Orange Juice"
+    ],
+      "Buttery Nipple": [
+        "Baileys",
+        "Butterscotch Schnapps"
+    ],
+      "Blow Job": [
+        "Baileys",
+        "Amaretto",
+        "Frangelico",
+        "Cream"
+    ],
+      "Liquid Cocaine": [
+        "Jagermeister",
+        "Rumplemintz",
+        "151 Rum"
+    ],
+      "Purple Hooter": [
+        "Vodka",
+        "Chambord",
+        "Sweet & Sour"
+    ],
+      "Washington Apple": [
+        "Crown Royal",
+        "Apple Pucker",
+        "Cranberry Juice"
+    ],
+      "Red-Headed Slut": [
+        "Jagermeister",
+        "Peach Schnapps",
+        "Cranberry Juice"
+    ],
+      "Oatmeal Cookie": [
+        "Baileys",
+        "Goldschlager",
+        "ButterScotch Schnapps",
+        "Jagermeister"
+    ],
+      "Sugar On Acid": [
+        "Jagermeister",
+        "Malibu Rum",
+        "Pineapple Juice"
+    ],
+      "Chocolate Cake": [
+        "Frangelico",
+        "Vodka",
+        "Triple Sec",
+        "Rose's Lime"
+    ],
+      "Lemondrop": [
+        "Vodka",
+        "Triple Sec",
+        "Lemon Juice"
     ]
+
 };
